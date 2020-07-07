@@ -1,4 +1,4 @@
-#searchMain {
+.searchMain {
   position: fixed;
   width: 400px;
   left: 50%;
@@ -6,20 +6,20 @@
   transform: translate(-50%, -50%);
 }
 
-#searchMain img {
+.searchMain img {
   display: block;
   margin-right: auto;
   margin-left: auto;
   width: 60%;
 }
 
-#searchMain form {
+.searchMain form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-input[type="text"] {
+.searchMain input[type="text"] {
   border-radius: 20px;
   width: 100%;
   height: 30px;
@@ -27,7 +27,7 @@ input[type="text"] {
   border-width: 1px;
 }
 
-input[type="text"]:hover {
+.searchMain input[type="text"]:hover {
   outline: none;
   border-color: grey;
   box-shadow: 0 0 3px grey;
@@ -50,12 +50,21 @@ input[type="submit"]:hover {
   border-color: darkgrey;
 }
 
-#searchLinks {
+.navLinks {
   float: right;
   padding: 10px;
   margin: 10px;
 }
 
-#searchLinks > a {
-  padding: 10px;
+.navLinks a {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+#imageLogo{
+  padding-left:68%;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #4a5ff0;
 }
